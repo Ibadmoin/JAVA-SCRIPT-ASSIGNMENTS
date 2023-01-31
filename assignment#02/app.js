@@ -63,7 +63,8 @@ alert("I am " + age + " years old")
 // times a visitor has visited a web page. Show his/her
 // number of visits on your web page. For example: “You
 // have visited this site N times”.
-
+// var visits = "You have visit 15 times this site !!"
+// alert(visits);
 
 
 
@@ -93,7 +94,11 @@ document.write("My birthyear is " + birthyear )
 // Show the following message in your browser: “John
 // Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
 
+// var name = "thomas ";
+// var productTitle = "T-shirt ";
+// var quantity = 50;
 
+// document.write(name + productTitle + quantity
 
 
 
@@ -102,3 +107,24 @@ document.write("My birthyear is " + birthyear )
 
 
 //---------------------------------------VARIABLE NAMES: LEGAL & ILLEGAL------------------//
+// question 1
+var woman,time,money;
+// question 2
+// a
+
+var berlin;
+var professor;
+var palermo;
+var tokyo;
+var helsinki;
+
+// b 
+// var 1ng;
+// var ba%;
+// var nqa8*1;
+// var hss_8&;
+// var hdS8/;
+
+// Question 3 
+var heading = "Rules for naming JS variables"
+document.write("<h1>heading</h1>" + "\n" + "<p>Variable names can only contain a letter, $ , _ .For example $name, _name or name.</p>" + "\n" + "<p>Variable names are case sensitive.</p>" + "\n" + "<p>Variable names should not be JS keywords</p>")
